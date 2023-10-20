@@ -5,12 +5,12 @@ body {
 	color: rgb(50, 50, 50, 1.0);
 	font-family: 'Lora', serif;
 	font-size: 16px;
+	font-weight: lighter;
 }
 
 h1,h2 {
 	font-family: 'Roboto', sans-serif;
 }
-
 
 h1 {
 	color: #63585E;
@@ -18,41 +18,23 @@ h1 {
 	font-weight: 900;
 	font-display: centered;
 }
-
 h2 {
 	color: #859DAD;
 	font-size: 24px;
 	font-weight: lighter;
 	font-weight: 500px;
+	font-display: centered;
 }
 
-.btn-blue { 
-	text-decoration: none;
-	color: white;
-	font-family: 'Lora', serif;
-	background-color: #8E7DBE;
-	padding: 15px 20px;
-	border-radius: 5px;
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
 }
-
-.btn-blue:hover {
-	color: white;
-	text-decoration: underline;
-} 
-
-.text-justify {
-	text-align: justify;
-}
-
-.text-centered {
-	text-align: center;
-} 
-
-.img-circle {
-	border-radius: 50%;
-	box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
-	height: auto;
-	width: 100px;
+a:hover {
+  color: black;
 }
 
 div {
@@ -63,6 +45,7 @@ div {
     border-radius: 5px;
 }
 
+
 /* Custom design with class */
 
 .container {
@@ -70,14 +53,51 @@ div {
 	margin: 40px auto;
 }
 
+@media (max-width: 960px) {
+	   .container {
+	   	   	width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+	   .container {
+	   	   	width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+	   .container {
+	   	   	width: 300px;
+  }
+}
+
 .box-white {
 	background-color: white;
 	padding: 60px;
 	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-	text-align: center;
 	border-radius: 5px;
-	margin: 50px
+	margin: 20px 0px;
+	text-align: center;
 }
+
+.img-circle {
+	border-radius: 50%;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+}
+
+.btn-blue { 
+	background-color: #8E7DBE;
+	color: white;
+	text-decoration: none;
+	font-family: 'Lora', serif;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.btn-blue:hover {
+	color: white;
+	text-decoration: underline;
+} 
 
 .list-inline {
 	list-style: none;
@@ -92,23 +112,12 @@ div {
 	color: rgb(230, 230, 230, 1.0);
 }
 .list-inline i:hover {
-	font-size: 50px;
 	color: rgb(0, 0, 0, 1.0);
 }
+
 
 /* Design adjustments using id (1% design remaining) */
 
 #introduction p {
 margin-block: 40px;
-}
-
-@media (max-width: 760px) {
-	   .container {
-	   	   	width: 600px;
-  }
-}
-@media (max-width: 500px) {
-	   .container {
-	   	   	width: 400px;
-  }
 }
