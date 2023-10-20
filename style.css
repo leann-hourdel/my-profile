@@ -1,0 +1,114 @@
+/* Colors & fonts */
+
+body {
+	background: rgb(230, 230, 230, 1.0);
+	color: rgb(50, 50, 50, 1.0);
+	font-family: 'Lora', serif;
+	font-size: 16px;
+}
+
+h1,h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+	color: #63585E;
+	font-size: 32px;
+	font-weight: 900;
+	font-display: centered;
+}
+
+h2 {
+	color: #859DAD;
+	font-size: 24px;
+	font-weight: lighter;
+	font-weight: 500px;
+}
+
+.btn-blue { 
+	text-decoration: none;
+	color: white;
+	font-family: 'Lora', serif;
+	background-color: #8E7DBE;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.btn-blue:hover {
+	color: white;
+	text-decoration: underline;
+} 
+
+.text-justify {
+	text-align: justify;
+}
+
+.text-centered {
+	text-align: center;
+} 
+
+.img-circle {
+	border-radius: 50%;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+	height: auto;
+	width: 100px;
+}
+
+div {
+    margin: 50px;
+    background: white;
+    padding: 60px;
+    box-shadow: 0px 10px 30px rgba(119, 119, 119, 0.5);
+    border-radius: 5px;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 1000px;
+	margin: 40px auto;
+}
+
+.box-white {
+	background-color: white;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	border-radius: 5px;
+	margin: 50px
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230, 1.0);
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: rgb(0, 0, 0, 1.0);
+}
+
+/* Design adjustments using id (1% design remaining) */
+
+#introduction p {
+margin-block: 40px;
+}
+
+@media (max-width: 760px) {
+	   .container {
+	   	   	width: 600px;
+  }
+}
+@media (max-width: 500px) {
+	   .container {
+	   	   	width: 400px;
+  }
+}
